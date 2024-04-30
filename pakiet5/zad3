@@ -1,0 +1,10 @@
+global_var = 10
+
+def function_with_global_variable():
+    global global_var
+    global_var += 1
+    return global_var
+
+def function_with_local_variable():
+    local_var = 5
+    return local_var
