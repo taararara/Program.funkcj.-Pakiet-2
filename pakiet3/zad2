@@ -1,0 +1,12 @@
+def filter_long_words(words):
+    """
+    Filtruje listę stringów, zwracając tylko te, których długość jest większa niż średnia długość wszystkich stringów.
+    
+    Args:
+    words (list): Lista stringów.
+    
+    Returns:
+    list: Lista zawierająca tylko stringi, których długość jest większa niż średnia długość wszystkich stringów w liście.
+    """
+    avg_length = sum(len(word) for word in words) / len(words)
+    return [word for word in words if len(word) > avg_length]
