@@ -1,0 +1,10 @@
+def fibonacci_generator():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+def read_large_file(file_path):
+    with open(file_path) as f:
+        for line in f:
+            yield line
