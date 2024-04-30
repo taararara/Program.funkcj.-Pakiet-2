@@ -1,0 +1,2 @@
+words_starting_with_a = list(filter(lambda word: word.startswith('a'), words_list))
+squares = list(map(lambda x: x**2, numbers_list))
