@@ -1,0 +1,11 @@
+def double_list_elements(nums):
+    """
+    Podwaja każdy element listy liczb.
+    
+    Args:
+    nums (list): Lista liczb.
+    
+    Returns:
+    list: Nowa lista, w której każdy element jest podwójny w stosunku do odpowiadającego elementu w pierwotnej liście.
+    """
+    return [num * 2 for num in nums]
