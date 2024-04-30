@@ -1,0 +1,2 @@
+even_numbers = lambda nums: [num for num in nums if num % 2 == 0]
+rectangle_area = lambda a, b: a * b
